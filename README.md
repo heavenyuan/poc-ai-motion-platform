@@ -1,4 +1,69 @@
+# AI Motion Effects Platform MVP
+
+🌐 **Live Demo**: [https://heavenyuan.github.io/poc-ai-motion-platform/](https://heavenyuan.github.io/poc-ai-motion-platform/)
+
+> _[繁體中文版本](#繁體中文版本) | English Version_
+
+## Overview
+
+A web application that generates AI images and applies dynamic motion effects, then exports them as GIFs.
+
+## Features
+
+- ✨ AI Image Generation (Pollinations.ai - Free)
+- 🎨 Circle Mask Motion Effects
+- 📥 GIF Export
+- 🚀 Pure Frontend Implementation
+
+## Tech Stack
+
+- **Frontend**: React 18 + Vite
+- **Canvas**: Native Canvas API
+- **GIF Generation**: gif.js
+- **AI API**: Pollinations.ai (Free)
+
+## Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Usage
+
+1. Enter image description
+2. Click "Generate Image"
+3. Wait for AI to generate the image (5-15 seconds)
+4. Preview the motion effects
+5. Export as GIF
+
+## Project Structure
+
+- `src/components/` - React components
+- `src/lib/` - Canvas animation logic
+- `src/services/` - AI API service
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages via GitHub Actions. See [DEPLOYMENT.md](DEPLOYMENT.md) for details.
+
+## License
+
+MIT
+
+---
+
+# 繁體中文版本
+
 # AI 動態特效平台 MVP
+
+🌐 **線上 Demo**: [https://heavenyuan.github.io/poc-ai-motion-platform/](https://heavenyuan.github.io/poc-ai-motion-platform/)
 
 ## 專案簡介
 
